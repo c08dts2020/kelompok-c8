@@ -171,13 +171,16 @@ a {
 }
 
 .member_list img {
-
     border-radius: 50%;
 }
+
+.member_list img:hover {
+    transform: rotate(-10deg);
+      transition: transform .5s ease;
+}
+
+
 .member_list .box { 
-
-
-  
   padding: 10px;
   background: #f5f6fa;
 
@@ -195,9 +198,16 @@ a {
   font-style: italic;
 }
 
+
+
+
+/* tambahan */
 .bottom {
   height : 200px;
 }
+
+
+
 
 .message {
   padding: 15px 40px;
